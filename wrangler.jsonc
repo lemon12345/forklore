@@ -1,0 +1,65 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	// Must match Cloudflare Workers Git-connected Project Name
+	"name": "forklore-wiki",
+	"main": ".open-next/worker.js",
+	"compatibility_date": "2026-11-21",
+	"compatibility_flags": [
+		"nodejs_compat",
+		"global_fetch_strictly_public"
+	],
+	"account_id": "c6c5412d58698124feecdd85eeb228ad",
+	"assets": {
+		"directory": ".open-next/assets",
+		"binding": "ASSETS"
+	},
+	"services": [
+		{
+			"binding": "WORKER_SELF_REFERENCE",
+			"service": "forklore-wiki"
+		}
+	],
+	"images": {
+		"binding": "IMAGES"
+	},
+	"observability": {
+		"logs": {
+			"enabled": true,
+			"invocation_logs": true
+		}
+	},
+	"vars": {
+		"DEPLOYMENT_PLATFORM": "cloudflare"
+	},
+	// ISR/SSG incremental cache — separate from media bucket `forklore`
+	"r2_buckets": [
+		{
+			"binding": "NEXT_INC_CACHE_R2_BUCKET",
+			"bucket_name": "forklore-next-cache"
+		}
+	],
+	"durable_objects": {
+		"bindings": [
+			{
+				"name": "NEXT_CACHE_DO_QUEUE",
+				"class_name": "DOQueueHandler"
+			}
+		]
+	},
+	"migrations": [
+		{
+			"tag": "v1",
+			"new_sqlite_classes": [
+				"DOQueueHandler"
+			]
+		}
+	],
+	"d1_databases": [
+		{
+			"binding": "NEXT_TAG_CACHE_D1",
+			"database_name": "forklore-tag-cache",
+			"database_id": "11c0347b-657c-44fd-8bb5-ce7c36ac37c1"
+		}
+	]
+	// No hyperdrive — public wiki deploy has no Postgres / login
+}

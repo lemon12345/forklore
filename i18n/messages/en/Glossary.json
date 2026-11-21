@@ -1,0 +1,29 @@
+{
+  "title": "Browse",
+  "description": "Browse meme entries — origins, spreads, formats, and remixes.",
+  "entryCount": "entries",
+  "allKinds": "All",
+  "emptyState": {
+    "title": "No entries yet",
+    "description": "No wiki entries match this filter yet."
+  },
+  "loadMorePostsFailed": "Failed to load more entries",
+  "loadMorePosts": "Loading more entries...",
+  "filterPostsFailed": "Failed to load entries",
+  "noPostsFoundForThisTag": "No entries found for this filter",
+  "reachedTheEnd": "You've reached the end of the archive",
+  "searchHeading": "Search results",
+  "relatedTitle": "Related entries",
+  "GlossaryDetail": {
+    "featured": "Featured",
+    "viewCount": "{count} views",
+    "accessRestricted": "Access Restricted",
+    "unauthorized": "This entry is only available to logged-in users",
+    "premium": "Premium Content",
+    "premiumContent": "This entry is exclusive to subscribers",
+    "signIn": "Sign In",
+    "upgrade": "Upgrade",
+    "backToGlossary": "Back to browse",
+    "notFound": "Entry not found"
+  }
+}

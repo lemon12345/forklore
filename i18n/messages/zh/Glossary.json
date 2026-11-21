@@ -1,0 +1,29 @@
+{
+  "title": "浏览",
+  "description": "浏览梗词条 — 起源、传播、模板与变体。",
+  "entryCount": "条词条",
+  "allKinds": "全部",
+  "emptyState": {
+    "title": "还没有词条",
+    "description": "没有符合当前筛选的词条。"
+  },
+  "loadMorePostsFailed": "加载更多词条失败",
+  "loadMorePosts": "加载更多词条…",
+  "filterPostsFailed": "加载词条失败",
+  "noPostsFoundForThisTag": "没有符合筛选的词条",
+  "reachedTheEnd": "已经到底了",
+  "searchHeading": "搜索结果",
+  "relatedTitle": "相关词条",
+  "GlossaryDetail": {
+    "featured": "精选",
+    "viewCount": "{count} 次阅读",
+    "accessRestricted": "访问受限",
+    "unauthorized": "此词条仅对登录用户开放",
+    "premium": "付费内容",
+    "premiumContent": "此词条仅对订阅用户开放",
+    "signIn": "登录",
+    "upgrade": "升级",
+    "backToGlossary": "返回浏览",
+    "notFound": "词条未找到"
+  }
+}

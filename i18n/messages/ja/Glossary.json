@@ -1,0 +1,29 @@
+{
+  "title": "一覧",
+  "description": "ミーム項目を閲覧 — 起源、拡散、フォーマット、派生。",
+  "entryCount": "件",
+  "allKinds": "すべて",
+  "emptyState": {
+    "title": "まだ項目がありません",
+    "description": "この条件に一致する項目はありません。"
+  },
+  "loadMorePostsFailed": "項目の読み込みに失敗しました",
+  "loadMorePosts": "項目を読み込み中…",
+  "filterPostsFailed": "項目の読み込みに失敗しました",
+  "noPostsFoundForThisTag": "この条件に一致する項目はありません",
+  "reachedTheEnd": "アーカイブの末尾です",
+  "searchHeading": "検索結果",
+  "relatedTitle": "関連項目",
+  "GlossaryDetail": {
+    "featured": "注目",
+    "viewCount": "{count} 回閲覧",
+    "accessRestricted": "アクセス制限",
+    "unauthorized": "この項目はログインユーザーのみ閲覧できます",
+    "premium": "プレミアム",
+    "premiumContent": "この項目は有料会員限定です",
+    "signIn": "ログイン",
+    "upgrade": "アップグレード",
+    "backToGlossary": "一覧に戻る",
+    "notFound": "項目が見つかりません"
+  }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Forklore">
+  <!--
+    Forklore mark — ink tile + italic display F (wiki/Newsreader spirit)
+    with a small fork branch on the crossbar for the “fork” of lore.
+  -->
+  <rect width="512" height="512" rx="108" fill="#0a0a0a"/>
+  <g fill="#fafafa" transform="translate(268 270) skewX(-14)">
+    <!-- stem -->
+    <path d="M-36 -175 L20 -175 L20 175 L-36 175 Z"/>
+    <!-- top bar -->
+    <path d="M-36 -175 L155 -175 L155 -112 L-36 -112 Z"/>
+    <!-- mid bar -->
+    <path d="M-36 -22 L118 -22 L118 36 L-36 36 Z"/>
+    <!-- fork tines from mid bar -->
+    <path d="M108 -8 L158 -58 L178 -38 L140 0 L178 38 L158 58 L108 8 Z"/>
+  </g>
+</svg>

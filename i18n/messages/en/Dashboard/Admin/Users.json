@@ -1,0 +1,98 @@
+{
+  "title": "Users",
+  "description": "Manage users (Admin only).",
+  "adjustCredits": {
+    "action": "Adjust credits",
+    "title": "Adjust credits",
+    "description": "Grant or remove credits for {email}.",
+    "currentBalance": "Current balance",
+    "subscription": "Subscription credits",
+    "purchased": "Purchased credits",
+    "total": "Total",
+    "deltaLabel": "Adjustment",
+    "deltaPlaceholder": "e.g. 100 or -50",
+    "deltaHint": "A positive value adds purchased credits; a negative value removes credits.",
+    "reasonLabel": "Reason (required)",
+    "reasonPlaceholder": "Why are you adjusting this user's credits?",
+    "invalidDelta": "The adjustment must be a non-zero integer.",
+    "reasonRequired": "A reason is required.",
+    "cancel": "Cancel",
+    "confirm": "Apply adjustment",
+    "processing": "Processing...",
+    "loadFailed": "Failed to load balances",
+    "success": "Credits adjusted. New total: {total}",
+    "failed": "Failed to adjust credits"
+  },
+  "blocklist": {
+    "action": "Signup blocklist",
+    "title": "Signup blocklist",
+    "description": "Emails or IPs matching any rule below cannot register. Existing accounts are not affected.",
+    "prefixesLabel": "Blocked prefixes",
+    "prefixesHint": "One per line. Blocks emails starting with the text, e.g. \"spam\" blocks spam123@gmail.com.",
+    "suffixesLabel": "Blocked suffixes",
+    "suffixesHint": "One per line. Blocks emails ending with the text, e.g. \"@tempmail.com\" or \".ru\".",
+    "exactLabel": "Blocked emails",
+    "exactHint": "One per line. Blocks the exact email address.",
+    "ipsLabel": "Blocked IPs",
+    "ipsHint": "One per line. Blocks registration from these exact IP addresses. IPv4-mapped IPv6 like ::ffff:1.2.3.4 matches the plain 1.2.3.4 rule.",
+    "placeholder": "One rule per line",
+    "loadFailed": "Failed to load blocklist",
+    "save": "Save",
+    "saving": "Saving...",
+    "success": "Blocklist saved",
+    "failed": "Failed to save blocklist"
+  },
+  "actions": {
+    "viewDetails": "View details"
+  },
+  "detail": {
+    "title": "User detail",
+    "back": "Back to users",
+    "loadFailed": "Failed to load user detail",
+    "notFound": "User not found.",
+    "copied": "Copied to clipboard",
+    "profile": {
+      "role": "Role",
+      "joined": "Joined",
+      "stripeCustomer": "Stripe customer",
+      "verified": "Verified",
+      "unverified": "Unverified",
+      "banned": "Banned"
+    },
+    "balance": {
+      "title": "Credit balance",
+      "subscription": "Subscription credits",
+      "purchased": "Purchased credits",
+      "total": "Total",
+      "adjust": "Adjust credits"
+    },
+    "subscription": {
+      "title": "Subscription",
+      "none": "No active subscription",
+      "monthlyCredits": "{credits} credits / month",
+      "renewsOn": "Renews on {date}",
+      "endsOn": "Ends on {date}",
+      "nextGrant": "Next credits arrive on {date}",
+      "interval": {
+        "month": "Monthly",
+        "year": "Yearly"
+      },
+      "status": {
+        "active": "Active",
+        "trialing": "Trial",
+        "past_due": "Past due",
+        "unpaid": "Unpaid"
+      }
+    },
+    "lifetime": {
+      "title": "Lifetime stats",
+      "orders": "Orders",
+      "netRevenue": "Net revenue",
+      "creditsConsumed": "Credits consumed"
+    },
+    "tabs": {
+      "credits": "Credit history",
+      "orders": "Orders"
+    }
+  }
+}
